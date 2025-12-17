@@ -126,20 +126,20 @@ $okButton.Add_Click({
             -SamAccountName $sAMAccountName `
             -Description $description `
             -AccountPassword $password `
-            -UserPrincipalName  "$sAMAccountName@Winterleitner.ch" `
-            -EmailAddress "$vorname.$Nachname@winterleitner.ch" `
-            -Office "Winterthur" `
-            -Street "Neuwiesenstrasse 15" `
-            -PostalCode "8400" `
-            -City "Winterthur" `
-            -Company "Winterleitner" `
+            -UserPrincipalName  "$sAMAccountName@Mumic.ch" `
+            -EmailAddress "$vorname.$Nachname@Mumic.ch" `
+            -Office "Zürich" `
+            -Street "Ausstelungs-strasse 15" `
+            -PostalCode "8001" `
+            -City "Zürich" `
+            -Company "Mumic" `
             -State "Zürich" `
             -Country "CH" `
             -Title $description `
             -Department $department `
             -Enabled $true `
             -ChangePasswordAtLogon $true `
-            -Path "OU=Users,OU=WINTERTHUR,DC=Winterleitner,DC=ch"`
+            -Path "OU=Users,OU=Zürich,DC=Mumic,DC=ch"`
             -ErrorAction Stop
  
          # Erfolgsmeldung
